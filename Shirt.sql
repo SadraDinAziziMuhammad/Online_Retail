@@ -1,0 +1,6 @@
+CREATE TABLE Shirt (
+    shirt_id INT AUTO_INCREMENT PRIMARY KEY,
+    shirt_type VARCHAR(255) NOT NULL,
+    shirt_size VARCHAR(255) NOT NULL,
+    price VARCHAR(20) NOT NULL
+);
